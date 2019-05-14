@@ -11,8 +11,8 @@
             "loggingOptions": "",
             "registryCredentials": {
               "ankhokha": {
-                "username": "$CONTAINER_REGISTRY_USERNAME_ankhokha",
-                "password": "$CONTAINER_REGISTRY_PASSWORD_ankhokha",
+                "username": "ankhokha",
+                "password": "OColp0qHJDjAC5sNJNsLriptVG=fV0m+",
                 "address": "ankhokha.azurecr.io"
               }
             }
