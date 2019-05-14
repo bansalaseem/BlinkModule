@@ -78,7 +78,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.BlinkModule}",
+              "image": "${MODULES.BlinkModule.arm32v7}",
               "createOptions": {
                 "HostConfig": {
                   "Devices": [
