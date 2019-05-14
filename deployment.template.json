@@ -78,7 +78,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.BlinkModule}",
+              "image": "ankhokha.azurecr.io/blinkmodule:0.0.11-arm32v7",
               "createOptions": {
                 "HostConfig": {
                   "Devices": [
