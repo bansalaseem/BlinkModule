@@ -1,5 +1,4 @@
 {
-  "$schema-version": "0.0.1",
   "description": "",
   "image": {
     "repository": "ankhokha.azurecr.io/blinkmodule",
