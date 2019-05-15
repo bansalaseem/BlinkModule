@@ -11,9 +11,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "ankhokha": {
-                "username": "ankhokha",
-                "password": "OColp0qHJDjAC5sNJNsLriptVG=fV0m+",
-                "address": "ankhokha.azurecr.io"
+                "username": "${ACR_USER}",
+                "password": "${ACR_PASS}",
+                "address": "${DEVOPS_IOTEDGE_REGISTRY_URL}"
               }
             }
           }
