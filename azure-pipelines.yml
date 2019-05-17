@@ -1,0 +1,12 @@
+name: Helm Deploy
+trigger: none
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+steps:
+- task: HelmInstaller@0
+  displayName: 'Install Helm'
+  inputs:
+    helmVersion: '2.10.0'
+
