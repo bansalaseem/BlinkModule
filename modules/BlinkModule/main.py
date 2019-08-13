@@ -7,7 +7,7 @@ import time
 import sys
 
 
-# Choose HTTP, AMQP or MQTT as transport protocol.  Currently only MQTT is supported.
+# Choose HTTP, AMQP or MQTT as transport protocol.  Currently only MQTT is supported. test
 
 def main(protocol):
     import RPi.GPIO as GPIO
